@@ -1,0 +1,54 @@
+{
+  "k_values": [2, 3, 4],
+  "replicates_per_cell": 5,
+  "seed_base": 20261201,
+  "species_count": 6,
+  "species_root_age": 1.0,
+  "late_duplication_rate": 0.2,
+  "min_duplicated_families_by_k": {"2": 2, "3": 2, "4": 3},
+  "loss_rate": 0.0,
+  "substitution_rate": 0.3,
+  "sequence_length": 250,
+  "require_all_species_families": true,
+  "max_attempts": 300,
+  "max_events_per_attempt": 100000,
+  "stem_time": 0.2,
+  "conditions": {
+    "easy": {
+      "family_age_min": 1.5,
+      "family_age_max": 1.8,
+      "species_rate_multipliers": {},
+      "overlap_fraction_min": 0.0,
+      "overlap_fraction_max": 0.03,
+      "distance_margin_min": 0.03
+    },
+    "medium": {
+      "family_age_min": 1.18,
+      "family_age_max": 1.38,
+      "species_rate_multipliers": {"S03": 2.0},
+      "overlap_fraction_min": 0.02,
+      "overlap_fraction_max": 0.65,
+      "distance_margin_min": -0.06,
+      "distance_margin_max": 0.05
+    },
+    "hard": {
+      "family_age_min": 1.04,
+      "family_age_max": 1.12,
+      "species_rate_multipliers": {"S03": 3.0, "S05": 3.0},
+      "overlap_fraction_min": 0.50,
+      "overlap_fraction_max": 1.0,
+      "distance_margin_max": -0.05
+    }
+  },
+  "size_experiment": {
+    "k_values": [4],
+    "family_age_min": 1.25,
+    "family_age_max": 1.40,
+    "species_rate_multipliers": {},
+    "late_duplication_rates": {
+      "low": 0.12,
+      "middle": 0.35,
+      "high": 0.70
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "k": 4,
+  "species_count": 12,
+  "species_root_age": 1.0,
+  "family_age_min": 1.18,
+  "family_age_max": 1.38,
+  "late_duplication_rate": 0.35,
+  "loss_rate": 0.02,
+  "substitution_rate": 0.3,
+  "branch_rate_multipliers": {
+    "species": {
+      "S03": 3.0,
+      "S09": 3.0
+    },
+    "family": {}
+  },
+  "sequence_length": 250,
+  "seed": 20261126,
+  "replicates": 1,
+  "require_all_species_families": true,
+  "max_attempts": 200,
+  "max_events_per_attempt": 100000,
+  "stem_time": 0.2
+}
